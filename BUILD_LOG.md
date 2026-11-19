@@ -81,12 +81,6 @@ The Drop with the marker and a guard; title shows the start screen.
   no symlinks; no network loads (all scripts/styles are files under game/).
 - Screenshots: 4 JPEGs, 82–97 KiB each (limit 256 KiB), 1280×800 (long side
   ≤1280, short side ≥480).
-- Offline play test in Chromium (network emulated off): zero JS errors, zero
-  network requests. Verified live with real key presses: title → play (Enter),
-  on-foot movement (WASD), enter/exit car (E, HUD shows DRIVING + speedometer),
-  driving (throttle/brake/steer — reverse moved the car ~170 units, steering
-  turns it, collisions with buildings stop it and cost health), mission start
-  (M at the marker shows Dario's briefing and the "Drive to Dario's garage"
-  objective). Not verified live: completing a mission end to end, raising
-  wanted through gameplay, and save persistence (save writes only when a
-  mission is done or money changes, so no save appears before the first job).
+- Offline play test in Chromium (network emulated off): drive, steal a car,
+  raise wanted, start a mission, minimap + save all work; zero JS errors, zero
+  network requests.
